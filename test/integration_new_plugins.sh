@@ -92,8 +92,14 @@ grep -q 'assets/al_email_protect/css/email-protect.css' "${protected_site}/index
 [ -f "${protected_site}/assets/al_email_protect/css/email-protect.css" ] \
   || fail "email-protect stylesheet referenced but not published"
 
-# ...and with it off (the default), the plugin costs nothing.
-grep -q 'al_email_protect' "${default_site}/index.html" \
+# ...and with it off, the plugin costs nothing. Uses its own override rather
+# than assuming the shipped config's default: this site ships protect_email:
+# true, so `default_site` is not a valid stand-in for the "off" case here.
+off_override="${tmp_dir}/no-protect-email.yml"
+printf 'protect_email: false\n' >"${off_override}"
+unprotected_site="$(build unprotected --config "_config.yml,${off_override}")"
+
+grep -q 'al_email_protect' "${unprotected_site}/index.html" \
   && fail "email-protect assets loaded while disabled"
 
 echo "new plugin integration checks passed"
