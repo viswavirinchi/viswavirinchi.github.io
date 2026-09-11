@@ -1,0 +1,21 @@
+cv:
+  name: Viswa Virinchi Muppirala
+  email: virinchi@uw.edu
+
+  social_networks:
+    - network: LinkedIn
+      username: axlevisu
+    - network: Google Scholar
+      username: keXIydkAAAAJ
+
+  sections:
+    Experience:
+      - company: LinkedIn
+        position: See my LinkedIn profile for my full work experience
+        url: https://www.linkedin.com/in/axlevisu/
+
+    Publications:
+      - title: See my Google Scholar profile for my full list of publications
+        authors:
+          - Viswa Virinchi Muppirala
+        url: https://scholar.google.com/citations?user=keXIydkAAAAJ&hl=en

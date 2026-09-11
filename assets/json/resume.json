@@ -1,0 +1,42 @@
+{
+  "basics": {
+    "name": "Viswa Virinchi Muppirala",
+    "label": "",
+    "image": "",
+    "email": "virinchi@uw.edu",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "axlevisu",
+        "url": "https://www.linkedin.com/in/axlevisu/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=keXIydkAAAAJ&hl=en"
+      }
+    ]
+  },
+  "work": [
+    {
+      "position": "See my LinkedIn profile for my full work experience",
+      "url": "https://www.linkedin.com/in/axlevisu/"
+    }
+  ],
+  "education": [],
+  "publications": [
+    {
+      "title": "See my Google Scholar profile for my full list of publications",
+      "url": "https://scholar.google.com/citations?user=keXIydkAAAAJ&hl=en"
+    }
+  ],
+  "projects": [],
+  "volunteer": [],
+  "awards": [],
+  "certificates": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
