@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "EE 215: Fundamentals of Electrical Engineering (retaking)"
+title: "EE 215: Fundamentals of Electrical Engineering"
 description: Teaching Assistant
 term: Autumn 2026
 year: 2026
