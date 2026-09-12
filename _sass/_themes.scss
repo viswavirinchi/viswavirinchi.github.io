@@ -206,3 +206,9 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/* Footer is unconditionally included by _layouts/default.liquid with no config
+   flag to turn it off, so it's hidden here instead. */
+footer[role="contentinfo"] {
+  display: none;
+}
